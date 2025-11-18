@@ -9,26 +9,36 @@
 
 }
 
+
 .alert{
-    width: 100%;
-    background-color: #030B1D;
-    padding: 16px 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4em;
-    /* text-align: center; */
-    font-size: 15px;
-  color: white;
     position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
+    background-color: #030B1D;
+    padding: 16px 24px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    font-size: 15px;
     z-index: 300;
+    color: white;
+   
 }
+
+.fa-bars{
+    /* border: 2px solid red; */
+    font-size: 2em;
+    color: white;
+    display: none;
+}
+
 
 .links{
     display: flex;
-    gap: 4em;
+    gap: 2em;
 }
 
 .links a{
@@ -52,14 +62,16 @@ header{
     z-index: 299;
 }
 
- header nav{
+
+  nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* max-width: 1200px; */
     margin: 0 auto;
+    padding: 20px;
     /* padding: 14px 50px; */
-    padding: 22px 60px;
+    /* padding: 22px 60px; */
 }
 
 .logo img{
@@ -70,12 +82,13 @@ header{
 .left-nav{
     display: flex;
     align-items: center;
-    gap: 2em;
+    gap: .5em;
+    /* gap: 2em; */
 }
 
 .page-type{
     display: flex;
-    gap: 2em;
+    gap: .5em;
 }
 
 .page-type li a{
@@ -87,8 +100,7 @@ header{
 .right-nav{
     display: flex;
     align-items: center;
-    gap: 3em;
-    /* gap: 20px; */
+    gap: 1em;
 }
 
 .right-nav a{
@@ -103,6 +115,15 @@ header{
     border-radius: 999px;
     cursor: pointer;
     font-weight: 600;
+}
+
+.flag img{
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+    margin-top: 2px;
 }
 
 
@@ -124,25 +145,99 @@ header{
 }
 
 
+
+/* Header media query starts here */
+
+@media(max-width:994px){
+    .header-cont{
+        border: 2px solid gold;
+        max-width: 100%;
+        /* padding: 12px 24px 48px; */
+        position: relative;
+
+    }
+
+   
+    /* .logo{
+   
+        position: relative;
+        top: 50px;
+    } */
+
+    
+    
+
+    .page-type li a{
+        /* font-size: 13px; */
+        padding: 8px 14px;
+    }
+
+    .right-nav li{
+        display: none;
+    }
+
+    .fa-bars{
+        display: block;
+        /* position: relative;
+        top: 50px; */
+       
+    }
+  
+   .page-type{
+    display: none;
+   }
+
+   }
+
+
+@media(max-width:625px){
+    .alert{
+       display: flex;
+       flex-direction: column;
+       top: auto;
+       bottom: 0;
+       left: 0;
+       width: 100%;
+       text-align: center;
+    }
+
+    header{
+        top: 0;
+        /* display: flex; */
+        /* justify-content: space-around; */
+        /* align-items: center; */
+    }
+}
+
+
+
 /* hero section starts here  */
+
 .hero{
-    position: relative;
-    top: 120px;
+    width: 100%;
     background-color: #031335;
-    padding: 40px 0 70px;
+    position: relative;
+    z-index: 1;
+    top: 120px;
+    /* padding: 40px 0 70px; */
 }
 
 .hero-inner{
-    border-radius: 0 0 40px 40px;
+    /* border-radius: 0 0 40px 40px; */
+    /* max-width: 1200px; */
+     /* background-color: #031335; */
+    margin: 0 auto;
     padding: 28px 36px;
+    /* padding: 0 40px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 60px;
 }
 
 .hero-left{
-    flex: 1;
+    /* border: 2px solid gold; */
+    max-width: 550px;
     color: #ffffff;
 }
 
@@ -150,18 +245,19 @@ header{
 .herobadge{
     display: inline-block;
     background-color: #3E588E;
-    padding: 12px 18px;
-    border-radius: 999px;
-    font-size: 12px;
-    margin-bottom: 20px;
+    padding: 20px 18px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
 
 }
 
 .hero-title{
-    font-size: 40px;
+    font-size: 3.4em;
     line-height: 1.2;
     font-weight: 700;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
 
 .hero-title span{
@@ -172,8 +268,9 @@ header{
 
 .hero-text{
     font-size: 1em;
+    opacity: 0.7;
     line-height: 1.6;
-    margin-bottom: 24px;
+    margin-bottom: 30px;
 
 }
 
@@ -181,11 +278,12 @@ header{
    background-color: #0357EE;
    color: #ffffff;
    border: none;
-   padding: 12px 26px;
+   padding: 20px 28px;
    border-radius: 10px;
    font-weight: 600;
    cursor: pointer;
-   margin-bottom: 18px;
+   margin-bottom: 25px;
+   transition: 0.3s ease-in-out;
 }
 
 .hero-btn:hover{
@@ -194,12 +292,12 @@ header{
 
 .hero-trust{
     font-size: 11px;
+    /* margin-top: 20px; */
     opacity: 0.8;
 }
 
-.hero-right{
-    /* border: 2px solid red; */
-    flex: 1;
-    display: flex;
-    justify-content: center;
+.hero-right img{
+    object-fit: cover;
+   
+    
 }
