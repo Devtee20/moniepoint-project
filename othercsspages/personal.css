@@ -248,6 +248,12 @@ header{
    padding: 28px 36px;
 }
 
+
+.hero-left{
+    /* border: 2px solid red; */
+    padding-top: 20px;
+}
+
 .hero-right img{
    width: 600px; 
 }
@@ -321,4 +327,56 @@ header{
     font-size: 11px;
     opacity: 0.8;
     color: #ffffff;
+}
+
+
+.store-text span{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+/* another section starts here */
+.bwm-sect{
+    position: relative;
+    background-color: #ffffff;
+     z-index: 280;
+    top: 120px;
+    margin-bottom: 0;
+    padding: 80px 100px;
+    /* top: 120px; */
+
+}
+
+.top-sect h1{
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 600;
+}
+
+
+.top-sect span{
+    color: #0357EE;
+}
+
+
+.top-sect p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.hero-left2{
+    /* border: 2px solid red; */
+    padding: 80px 120px;
+}
+
+.wrapper{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
 }
