@@ -344,7 +344,7 @@ header{
      z-index: 280;
     top: 120px;
     margin-bottom: 0;
-    padding: 80px 100px;
+    padding: 70px 90px;
     /* top: 120px; */
 
 }
@@ -365,18 +365,53 @@ header{
 .top-sect p{
     text-align: center;
     padding-top: 20px;
+    font-size: 1.3em;
 }
 
 
-.hero-left2{
-    /* border: 2px solid red; */
-    padding: 80px 120px;
-}
+
 
 .wrapper{
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+    padding: 20px;
+}
+
+.hero-right2{
+    /* margin-top: 80px; */
+    padding-top: 80px;
+}
+
+
+.firstext{
+     display: inline-block;
+    background-color: #ECF2FE;
+    padding: 14px 18px;
+    border-radius: 30px;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.instantstyle{
+    font-size: 2.8em;
+    margin-bottom: 20px;
+}
+
+.styletf{
+    font-size: 1.2em;
+   color: #3E588E;
+   margin-bottom: 20px;
+}
+
+.hero-btn2{
+   background-color: #0357EE;
+   color: #ffffff;
+   border: none;
+   padding: 20px 28px;
+   border-radius: 10px;
+   font-weight: 600;
+   cursor: pointer;
+   transition: 0.3 ease-in-out;
+   /* transition: 0.3s ease-in-out; */
 }
