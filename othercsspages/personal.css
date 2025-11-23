@@ -546,3 +546,81 @@ header{
 
 
 /* another section starts here */
+
+.open-account{
+    position: relative;
+    top: 130px;
+    padding: 80px 0;
+    background-color:#F5F7FA
+}
+
+.open-account-inner{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.open-account-top{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 3.5em;
+    margin-bottom: 40px;
+}
+
+
+.open-account-top h2{
+    /* border: 2px solid red; */
+    font-size: 2.4em;
+    color: #092256;
+}
+
+.open-account-img{
+    width:220px;
+}
+
+
+.open-account-steps{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+
+.step-card{
+    /* border: 2px solid gold; */
+    flex: 1;
+    font-size: 15px;
+}
+
+.step-card h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    /* color: #3E588E; */
+}
+
+.step-card p{
+    line-height: 1.5;
+   color: #3E588E;
+}
+
+
+.step-number{
+    border: 2px solid plum;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #d0d5dd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    font-weight: 600;
+   color: #14213d;
+}
+
+
+
+
+
