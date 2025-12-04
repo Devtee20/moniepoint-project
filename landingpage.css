@@ -572,8 +572,12 @@ nav {
 }
 
 
+
+/* feature inner section starts here */
+
+
+
 .feature-inner {
-    /* max-width: 1300px; */
     position: relative;
     z-index: 28987386;
     width: 85%;
@@ -581,7 +585,6 @@ nav {
     margin-top: 80px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     gap: 6em;
 }
 
@@ -624,9 +627,26 @@ nav {
     border-radius: 10px;
     background-color: #0357EE;
     color: white;
-    font-size: 1em;
-    font-weight: 600;
+    /* font-size: 1em; */
+    font-weight: 400;
     cursor: pointer;
+}
+
+.feature-btn1 {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #0357EE;
+    /* font-size: 1em; */
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.flex-btn{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 1.2em;
 }
 
 
