@@ -60,7 +60,7 @@ header {
     left: 0;
     width: 100%;
     background-color: #031335;
-    z-index: 212432;
+    z-index: 2100220;
 }
 
 
@@ -520,12 +520,100 @@ nav {
 
 
 .top-sect p span {
-    /* border: 2px solid red; */
     font-weight: 600;
     color: #0b3cff;
 }
 
-/* ---------- FEATURE BLOCK ---------- */
+
+
+/* here */
+/* 
+.feature-inner {
+    position: relative;
+    z-index: 28987386;
+    width: 85%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+}
+
+
+.feature-copy {
+    flex: 1.1;
+}
+
+.feature-tag {
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: 999px;
+    background-color: #ECF2FE;
+    color: #022C77;
+    margin-bottom: 18px;
+}
+
+
+.feature-title {
+    font-size: 2.5em;
+    line-height: 1.2;
+    color: #092256;
+    margin-bottom: 18px;
+}
+
+
+.feature-text {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #3E588E;
+    max-width: 450px;
+    margin-bottom: 24px;
+
+}
+
+
+.feature-btn {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0357EE;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.feature-btn1 {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #0357EE;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.flex-btn{
+    display: flex;
+    gap: 1.2em;
+}
+
+
+.feature-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.feature-image img {
+    max-width: 800px;
+    margin-top: 30px;
+    width: 100%;
+    display: block;
+} */
+
+
+
 .feature-inner {
     display: flex;
     align-items: center;
@@ -533,7 +621,6 @@ nav {
     gap: 64px;
 }
 
-/* ---------- TEXT SIDE ---------- */
 .feature-copy {
     max-width: 480px;
 }
@@ -541,7 +628,6 @@ nav {
 .feature-tag {
     display: inline-block;
     font-size: 1em;
-    /* font-weight: 600; */
     color: #022C77;
     background: #f1f3f5;
     padding: 6px 20px;
@@ -566,7 +652,6 @@ nav {
     margin-bottom: 20px;
 }
 
-/* ---------- BUTTON ---------- */
 .feature-btn {
     padding: 12px 20px;
     border-radius: 8px;
@@ -578,7 +663,6 @@ nav {
     cursor: pointer;
 }
 
-/* ---------- IMAGE SIDE ---------- */
 .feature-image img {
     width: 100%;
     max-width: 400px;

@@ -497,11 +497,6 @@ nav {
 
 .logo-card {
     flex: 1 1 150px;
-    /* border: 2px solid red; */
-    /* gap: 5em; */
-    /* padding: 20px; */
-    /* height: 80px; */
-    /* background-color: #ffffff; */
     border-radius: 20px;
     display: flex;
     align-items: center;
