@@ -792,7 +792,7 @@ nav {
 }
 
 .benefit-heading {
-   font-size: 1.2em;
+    font-size: 1.2em;
     margin-bottom: 10px;
 }
 
@@ -800,7 +800,7 @@ nav {
     font-size: 16px;
     line-height: 1.6;
     color: #3E588E;
-   
+
 }
 
 @media (max-width: 993px) {
@@ -873,8 +873,8 @@ nav {
 .open-account-steps {
     display: flex;
     /* justify-content: space-between; */
-     gap: 32px;
-     /* justify-content: flex-start; */
+    gap: 32px;
+    /* justify-content: flex-start; */
     /* margin-bottom: 40px; */
 }
 
@@ -932,46 +932,46 @@ nav {
 @media (max-width: 990px) {
 
 
-  .open-account-img {
-    display: none;
-  }
+    .open-account-img {
+        display: none;
+    }
 
-  .open-account-inner{
-    max-width: 100%;
-    margin: 0;
-    padding: 48px 20px;
-  }
+    .open-account-inner {
+        max-width: 100%;
+        margin: 0;
+        padding: 48px 20px;
+    }
 
- 
-  .open-account-steps {
-    display: flex;
-    flex-direction: column;
-     max-width: 100%;
-     margin-bottom: 40px;
-    /* grid-template-columns: 1fr;  */
-  }
 
-  .step-card{
-    width: 100%;
-  }
+    .open-account-steps {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin-bottom: 40px;
+        /* grid-template-columns: 1fr;  */
+    }
 
-  .step-card h3{
-    margin-bottom: 4px;
-  }
+    .step-card {
+        width: 100%;
+    }
 
-  .step-card p{
-    margin-top: 2px;
-    margin-bottom: 0;
-   
-  }
-  
-  .store-btns2 {
-/* 
+    .step-card h3 {
+        margin-bottom: 4px;
+    }
+
+    .step-card p {
+        margin-top: 2px;
+        margin-bottom: 0;
+
+    }
+
+    .store-btns2 {
+        /* 
     justify-content: flex-start;
     flex-wrap: wrap; */
-   display: flex;
-   position: static;
-  }
+        display: flex;
+        position: static;
+    }
 
 
 }
@@ -987,7 +987,7 @@ nav {
     padding: 80px 0;
     position: relative;
     top: 120px;
-   z-index: 190050;
+    z-index: 190050;
 }
 
 /* 
@@ -1098,96 +1098,96 @@ nav {
 } */
 
 .blogs-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 80px 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 24px;
 }
 
 /* Header */
 .blogs-header {
-  max-width: 600px;
-  margin-bottom: 40px;
+    max-width: 600px;
+    margin-bottom: 40px;
 }
 
 .blogs-title {
-  font-size: 2rem;
-  color: #092256;
-  margin-bottom: 8px;
+    font-size: 2rem;
+    color: #092256;
+    margin-bottom: 8px;
 }
 
 .blogs-sub {
-  color: #5b6b8b;
-  line-height: 1.5;
+    color: #5b6b8b;
+    line-height: 1.5;
 }
 
 /* Blog cards grid */
 .blogs-rows {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
 }
 
 /* Card */
 .blog-card {
-  background: #fff;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
-  display: flex;
-  flex-direction: column;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
 }
 
 /* Image */
 .card-media img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
 }
 
 /* Card body */
 .card-body {
-  padding: 20px;
+    padding: 20px;
 }
 
 .card-meta {
-  font-size: 13px;
-  color: #5b6b8b;
-  margin-bottom: 8px;
+    font-size: 13px;
+    color: #5b6b8b;
+    margin-bottom: 8px;
 }
 
 .meta-sep {
-  margin-left: 6px;
+    margin-left: 6px;
 }
 
 .card-title {
-  font-size: 1rem;
-  color: #092256;
-  line-height: 1.4;
-  margin-bottom: 10px;
+    font-size: 1rem;
+    color: #092256;
+    line-height: 1.4;
+    margin-bottom: 10px;
 }
 
 .class-author {
-  font-size: 13px;
-  color: #5b6b8b;
+    font-size: 13px;
+    color: #5b6b8b;
 }
 
 /* Controls */
 .blogs-controls {
-  display: flex;
-  justify-content: flex-end;
-  gap: 12px;
-  margin-top: 32px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 32px;
 }
 
 .blogs-arrow {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  border: none;
-  background: #fff;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  cursor: pointer;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 
@@ -1196,31 +1196,31 @@ nav {
 }
 
 @media (max-width: 990px) {
-  .blogs-rows {
-   grid-template-columns: 1fr;
-    gap: 24px;
-  }
+    .blogs-rows {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
 
-  .blogs-controls {
-    justify-content: center;
-  }
+    .blogs-controls {
+        justify-content: center;
+    }
 }
 
 
 
 @media (max-width: 600px) {
-  .blogs-inner {
-    padding: 48px 16px;
-  }
+    .blogs-inner {
+        padding: 48px 16px;
+    }
 
-  .blogs-rows {
-    /* grid-template-columns: 1fr; */
-    gap: 20px;
-  }
+    .blogs-rows {
+        /* grid-template-columns: 1fr; */
+        gap: 20px;
+    }
 
-  .blogs-controls {
-    margin-top: 24px;
-  }
+    .blogs-controls {
+        margin-top: 24px;
+    }
 }
 
 
@@ -1233,7 +1233,7 @@ nav {
     top: 100px;
     background-color: #F9FAFB;
     padding: 72px 20px;
-     z-index: 190030;
+    z-index: 190030;
 }
 
 .faq-section .container {
@@ -1349,88 +1349,88 @@ nav {
 
 /* Faq media query */
 @media (max-width: 990px) {
-  .faq-section {
-    padding: 64px 16px;
-  }
+    .faq-section {
+        padding: 64px 16px;
+    }
 
-  .faq-section .container {
-    max-width: 100%;
-  }
+    .faq-section .container {
+        max-width: 100%;
+    }
 
-  .faq-title {
-    font-size: 36px;
-    margin-bottom: 28px;
-  }
+    .faq-title {
+        font-size: 36px;
+        margin-bottom: 28px;
+    }
 
-  .faq-item summary {
-    padding: 18px 20px;
-  }
+    .faq-item summary {
+        padding: 18px 20px;
+    }
 
-  .faq-answer {
-    padding: 14px 20px 24px;
-  }
+    .faq-answer {
+        padding: 14px 20px 24px;
+    }
 }
 
 @media (max-width: 600px) {
-  .faq-section {
-    padding: 48px 14px;
-  }
+    .faq-section {
+        padding: 48px 14px;
+    }
 
-  .faq-title {
-    font-size: 28px;
-    line-height: 1.15;
-    margin-bottom: 24px;
-  }
+    .faq-title {
+        font-size: 28px;
+        line-height: 1.15;
+        margin-bottom: 24px;
+    }
 
-  .faq-question {
-    font-size: 16px;
-  }
+    .faq-question {
+        font-size: 16px;
+    }
 
-  .faq-item summary {
-    padding: 16px 16px;
-    gap: 12px;
-  }
+    .faq-item summary {
+        padding: 16px 16px;
+        gap: 12px;
+    }
 
-  .faq-answer {
-    font-size: 14px;
-    padding: 12px 16px 20px;
-  }
+    .faq-answer {
+        font-size: 14px;
+        padding: 12px 16px 20px;
+    }
 
-  .faq-chevron {
-    width: 24px;
-    height: 24px;
-    flex: 0 0 24px;
-  }
+    .faq-chevron {
+        width: 24px;
+        height: 24px;
+        flex: 0 0 24px;
+    }
 
-  .faq-chevron::after {
-    width: 7px;
-    height: 7px;
-  }
+    .faq-chevron::after {
+        width: 7px;
+        height: 7px;
+    }
 }
 
 
 @media (max-width: 480px) {
-  .faq-section {
-    padding: 48px 12px;
-  }
+    .faq-section {
+        padding: 48px 12px;
+    }
 
-  .faq-title {
-    font-size: 26px;
-    margin-bottom: 24px;
-  }
+    .faq-title {
+        font-size: 26px;
+        margin-bottom: 24px;
+    }
 
-  .faq-item summary {
-    padding: 14px 16px;
-  }
+    .faq-item summary {
+        padding: 14px 16px;
+    }
 
-  .faq-question {
-    font-size: 15px;
-  }
+    .faq-question {
+        font-size: 15px;
+    }
 
-  .faq-answer {
-    font-size: 13.5px;
-    padding: 12px 16px 18px;
-  }
+    .faq-answer {
+        font-size: 13.5px;
+        padding: 12px 16px 18px;
+    }
 }
 
 
@@ -1442,8 +1442,8 @@ nav {
     /* border: 2px solid red; */
     background-color: #0241B2;
     position: relative;
-      z-index: 190010;
-      top: 90px;
+    z-index: 190010;
+    top: 90px;
     width: 100%;
     background-image: url("../images/imgi_34_ctaL.svg");
     background-repeat: no-repeat;
@@ -1451,7 +1451,7 @@ nav {
     background-position: center;
     padding: 120px 20px;
     color: white;
-    max-width: 1700px;
+    /* max-width: 1700px; */
 }
 
 /* Inner */
@@ -1485,7 +1485,21 @@ nav {
     background: #ffe39c;
 }
 
-/* cta banner media query */
 
+
+@media (max-width: 480px) {
+  .cta-banner {
+    padding: 60px 14px;
+  }
+
+  .cta-banner h2 {
+    font-size: 1.6em;
+  }
+
+  .cta-btn {
+    width: 100%;
+    max-width: 260px;
+  }
+}
 
 /* another section starts here */
