@@ -646,6 +646,7 @@ nav {
     background-color: #F8FAFD;
     position: relative;
     top: 130px;
+    z-index: 190080;
     padding: 80px 0;
 }
 
@@ -835,13 +836,16 @@ nav {
 
 .open-account {
     position: relative;
+    width: 100%;
     top: 130px;
-    padding: 80px 0;
+    z-index: 190070;
+    /* padding: 80px 0; */
     background-color: #F5F7FA
 }
 
 .open-account-inner {
     max-width: 1200px;
+    padding: 80px 24px;
     margin: 0 auto;
 }
 
@@ -868,15 +872,18 @@ nav {
 
 .open-account-steps {
     display: flex;
-    justify-content: space-between;
-     gap: 40px;
-    margin-bottom: 40px;
+    /* justify-content: space-between; */
+     gap: 32px;
+     /* justify-content: flex-start; */
+    /* margin-bottom: 40px; */
 }
 
 
 .step-card {
     width: 300px;
-    min-height: 220px;
+    width: 100%;
+    min-height: auto;
+    /* min-height: 220px; */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0, 4);
     border: 1px solid rgba(0, 0, 0, 0, 4);
     display: flex;
@@ -887,13 +894,13 @@ nav {
 .step-card h3 {
     font-size: 18px;
     font-weight: 600;
-    margin: 0;
+    /* margin: 0; */
 }
 
 .step-card p {
     line-height: 1.5;
     color: #3E588E;
-    margin: 0;
+    /* margin: 0; */
 }
 
 
@@ -915,9 +922,58 @@ nav {
 
 .store-btns2 {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     gap: 2em;
+    margin-top: 40px;
+}
+
+
+@media (max-width: 990px) {
+
+
+  .open-account-img {
+    display: none;
+  }
+
+  .open-account-inner{
+    max-width: 100%;
+    margin: 0;
+    padding: 48px 20px;
+  }
+
+ 
+  .open-account-steps {
+    display: flex;
+    flex-direction: column;
+     max-width: 100%;
+     margin-bottom: 40px;
+    /* grid-template-columns: 1fr;  */
+  }
+
+  .step-card{
+    width: 100%;
+  }
+
+  .step-card h3{
+    margin-bottom: 4px;
+  }
+
+  .step-card p{
+    margin-top: 2px;
+    margin-bottom: 0;
+   
+  }
+  
+  .store-btns2 {
+/* 
+    justify-content: flex-start;
+    flex-wrap: wrap; */
+   display: flex;
+   position: static;
+  }
+
+
 }
 
 
@@ -928,24 +984,19 @@ nav {
 
 .blogs-section {
     background-color: #F8FAFD;
-    /* width: 100%; */
-    /* padding: 64px 20px; */
     padding: 80px 0;
     position: relative;
-    z-index: 250;
-    /* top: 120px; */
+    top: 120px;
+   z-index: 190050;
 }
 
-
+/* 
 .blogs-inner {
-    /* border: 2px solid red; */
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .blogs-header {
-    /* border: 2px solid gold; */
-    /* max-width: 920px; */
     max-width: 500px;
     margin: 0 0 12px 0;
 
@@ -953,7 +1004,6 @@ nav {
 
 
 .blogs-title {
-    /* border: 2px solid red; */
     font-size: 2.8em;
     line-height: 1.05;
     margin: 0 0 12px 0;
@@ -963,17 +1013,14 @@ nav {
 }
 
 .blogs-sub {
-    /* border: 2px solid red; */
     font-size: 1.2em;
     line-height: 1.3;
-    /* margin: 0 0 12px 0; */
     color: #092256;
     padding-bottom: 30px;
 }
 
 
 .blogs-rows {
-    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2em;
@@ -982,13 +1029,9 @@ nav {
 
 
 .blog-card {
-    /* padding-top: 20px; */
-    /* border: 2px solid red; */
     background-color: #fff;
     border-radius: 12px;
     overflow: hidden;
-    /* box-shadow: 0 8px 18px rgba(21, 25, 35, 0.06); */
-    /* border: 1px solid rgba(39, 48, 63, 0.04); */
     display: flex;
     flex-direction: column;
     min-height: 320px;
@@ -998,7 +1041,6 @@ nav {
 
 
 .card-media {
-    /* border: 2px solid red; */
     width: 100%;
     overflow: hidden;
     background: #eee;
@@ -1022,14 +1064,11 @@ nav {
 
 
 .card-meta {
-    /* border: 2px solid red; */
-    /* gap: 5em; */
     color: #0357EE;
     font-size: 13px;
 }
 
 .meta-sep {
-    /* border: 2px solid red; */
     color: #CAD1D9;
 }
 
@@ -1056,11 +1095,132 @@ nav {
     box-shadow: 0 6px 14px rgba(18, 24, 32, 0.06);
     color: #0357EE;
     font-size: 20px;
+} */
+
+.blogs-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+/* Header */
+.blogs-header {
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+.blogs-title {
+  font-size: 2rem;
+  color: #092256;
+  margin-bottom: 8px;
+}
+
+.blogs-sub {
+  color: #5b6b8b;
+  line-height: 1.5;
+}
+
+/* Blog cards grid */
+.blogs-rows {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+/* Card */
+.blog-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image */
+.card-media img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Card body */
+.card-body {
+  padding: 20px;
+}
+
+.card-meta {
+  font-size: 13px;
+  color: #5b6b8b;
+  margin-bottom: 8px;
+}
+
+.meta-sep {
+  margin-left: 6px;
+}
+
+.card-title {
+  font-size: 1rem;
+  color: #092256;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.class-author {
+  font-size: 13px;
+  color: #5b6b8b;
+}
+
+/* Controls */
+.blogs-controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.blogs-arrow {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  cursor: pointer;
 }
 
 
 .blogs-arrow:active {
     transform: translateY(1px);
+}
+
+@media (max-width: 990px) {
+  .blogs-rows {
+   grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .blogs-controls {
+    justify-content: center;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  .blogs-inner {
+    padding: 48px 16px;
+  }
+
+  .blogs-rows {
+    /* grid-template-columns: 1fr; */
+    gap: 20px;
+  }
+
+  .blogs-controls {
+    margin-top: 24px;
+  }
 }
 
 
@@ -1070,15 +1230,13 @@ nav {
 
 .faq-section {
     position: relative;
+    top: 100px;
     background-color: #F9FAFB;
     padding: 72px 20px;
-    /* padding: 80px 0; */
-    /* top: 120px; */
-    z-index: 100;
+     z-index: 190030;
 }
 
 .faq-section .container {
-    /* border: 2px solid red; */
     max-width: 900px;
     margin: 0 auto;
 }
@@ -1095,7 +1253,6 @@ nav {
 }
 
 .faq-list {
-    /* border: 2px solid red; */
     padding: 20px;
     display: block;
     gap: 18px;
@@ -1114,7 +1271,6 @@ nav {
 
 
 .faq-item summary {
-    /* border: 2px solid red; */
     list-style: none;
     cursor: pointer;
     padding: 20px 22px;
@@ -1129,7 +1285,6 @@ nav {
 .faq-question {
     font-size: 18px;
     font-weight: 500;
-    /* border: 2px solid red; */
     color: #0A2357;
     margin: 0;
     flex: 1;
@@ -1137,7 +1292,6 @@ nav {
 
 
 .faq-chevron {
-    /* border: 2px solid red; */
     width: 28px;
     height: 28px;
     display: inline-block;
@@ -1192,6 +1346,94 @@ nav {
 }
 
 
+
+/* Faq media query */
+@media (max-width: 990px) {
+  .faq-section {
+    padding: 64px 16px;
+  }
+
+  .faq-section .container {
+    max-width: 100%;
+  }
+
+  .faq-title {
+    font-size: 36px;
+    margin-bottom: 28px;
+  }
+
+  .faq-item summary {
+    padding: 18px 20px;
+  }
+
+  .faq-answer {
+    padding: 14px 20px 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .faq-section {
+    padding: 48px 14px;
+  }
+
+  .faq-title {
+    font-size: 28px;
+    line-height: 1.15;
+    margin-bottom: 24px;
+  }
+
+  .faq-question {
+    font-size: 16px;
+  }
+
+  .faq-item summary {
+    padding: 16px 16px;
+    gap: 12px;
+  }
+
+  .faq-answer {
+    font-size: 14px;
+    padding: 12px 16px 20px;
+  }
+
+  .faq-chevron {
+    width: 24px;
+    height: 24px;
+    flex: 0 0 24px;
+  }
+
+  .faq-chevron::after {
+    width: 7px;
+    height: 7px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .faq-section {
+    padding: 48px 12px;
+  }
+
+  .faq-title {
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+
+  .faq-item summary {
+    padding: 14px 16px;
+  }
+
+  .faq-question {
+    font-size: 15px;
+  }
+
+  .faq-answer {
+    font-size: 13.5px;
+    padding: 12px 16px 18px;
+  }
+}
+
+
 /* another section starts here  */
 
 
@@ -1200,15 +1442,15 @@ nav {
     /* border: 2px solid red; */
     background-color: #0241B2;
     position: relative;
+      z-index: 190010;
+      top: 90px;
     width: 100%;
     background-image: url("../images/imgi_34_ctaL.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 120px 20px;
-    /* border-radius: 45px; */
     color: white;
-    /* margin: 40px auto 80px; */
     max-width: 1700px;
 }
 
@@ -1242,6 +1484,8 @@ nav {
 .cta-btn:hover {
     background: #ffe39c;
 }
+
+/* cta banner media query */
 
 
 /* another section starts here */
