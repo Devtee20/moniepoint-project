@@ -441,7 +441,107 @@ nav {
 
 
 /* hero section media query */
+/* ====== LARGE SCREENS (optional adjustment) ====== */
+@media (max-width: 1200px) {
+  .hero-inner {
+    gap: 40px;
+  }
 
+  .hero-left {
+    flex: 0 0 480px;
+  }
+
+  .hero-right {
+    flex: 0 0 480px;
+  }
+}
+
+
+/* ====== TABLETS ====== */
+@media (max-width: 992px) {
+  .hero-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-left {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .hero-right {
+    flex: 100%;
+  }
+
+  .hero-title {
+    font-size: 2.8em;
+  }
+
+  .hero-right {
+    display: none;
+  } 
+}
+
+
+/* ====== SMALL TABLETS / LARGE PHONES ====== */
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .hero-title {
+    font-size: 2.3em;
+  }
+
+  .hero-text br {
+    display: none;
+  }
+  
+  /* .hero-right {
+    display: none;
+  }  */
+}
+
+
+/* ====== MOBILE ====== */
+@media (max-width: 576px) {
+  .hero-inner {
+    padding: 20px;
+  }
+
+  .hero-title {
+    font-size: 2em;
+  }
+
+  .hero-btn {
+    width: 100%;
+  }
+
+  .herobadge {
+    font-size: 12px;
+    padding: 12px 14px;
+  }
+}
+
+
+/* ====== SMALL MOBILE (320px) ====== */
+@media (max-width: 320px) {
+  .hero-title {
+    font-size: 1.6em;
+  }
+
+  .hero-text {
+    font-size: 0.9em;
+  }
+
+  .hero-btn {
+    padding: 14px 18px;
+    font-size: 14px;
+  }
+}
+
+/* 
 @media (max-width: 1200px) {
   .hero-inner {
     gap: 40px;
@@ -529,10 +629,11 @@ nav {
     font-size: 11px;
     opacity: 0.75;
   }
-}
+} */
 
 
 /* another section starts here */
+
 .biz-sect {
   background-color: #F7F9FD;
   padding: 80px 0;
@@ -891,6 +992,8 @@ nav {
 }
 
 
+/* Feature media query starts here */
+
 @media (max-width: 992px) {
   .midtext-list {
     display: none;
@@ -951,6 +1054,17 @@ nav {
   .midtext h1 {
     font-size: 2.1em;
     line-height: 1.3;
+  }
+}
+
+@media (max-width: 569px){
+  .midtext h1 {
+    font-size: 2em;
+    line-height: 1.3;
+  }
+
+  .midtext h1 br {
+    display: none;
   }
 }
 
@@ -1661,7 +1775,7 @@ nav {
   background-position: center;
   padding: 100px 20px;
   color: white;
-  max-width: 1700px;
+  /* max-width: 1700px; */
 }
 
 .cta-inner {
