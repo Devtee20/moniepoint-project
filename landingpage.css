@@ -51,6 +51,9 @@
   text-decoration: underline;
 }
 
+/* alert media query starts here */
+
+
 /* header starts here */
 
 header {
@@ -1469,6 +1472,7 @@ nav {
 
 
 /* open account media query */
+
 
 
 @media (max-width: 990px) {
